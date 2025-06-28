@@ -1,14 +1,15 @@
 modLoader = "javafml"
 loaderVersion = "${loader_version_range}"
 license = "${mod_license}"
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+issueTrackerURL="https://github.com/Multi-Coder-24/Hushed-Storage/issues"
 [[mods]]
 modId = "${mod_id}"
 version = "${mod_version}"
 displayName = "${mod_name}"
-#updateJSONURL="https://change.me.example.invalid/updates.json"
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+updateJSONURL="https://api.modrinth.com/updates/hushed-storage/forge_updates.json?neoforge=only"
+displayURL="https://modrinth.com/project/hushed-storage"
 authors = "${mod_authors}"
+logoFile = "assets/logo.png"
 
 description = '''${mod_description}'''
 
