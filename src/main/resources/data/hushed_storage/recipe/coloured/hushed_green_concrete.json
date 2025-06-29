@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hushed_storage",
+  "ingredients": [
+    {
+      "item": "minecraft:green_concrete"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "hushed_storage:hushed_green_concrete"
+  }
+}
