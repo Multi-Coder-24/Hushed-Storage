@@ -7,6 +7,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.phys.BlockHitResult;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -16,7 +17,7 @@ public class BaseHushedBlock extends Block implements EntityBlock
 {
     public BaseHushedBlock()
     {
-        super(Properties.of());
+        super(Properties.of().pushReaction(PushReaction.NORMAL));
     }
 
     @Override
