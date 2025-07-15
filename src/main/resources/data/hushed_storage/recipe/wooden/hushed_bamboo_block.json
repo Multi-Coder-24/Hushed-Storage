@@ -3,7 +3,7 @@
   "group": "hushed_storage",
   "ingredients": [
     {
-      "item": "minecraft:bricks"
+      "item": "minecraft:bamboo_block"
     },
     {
       "item": "minecraft:chest"
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "hushed_storage:other/hushed_bricks"
+    "id": "hushed_storage:wooden/hushed_bamboo_block"
   }
 }

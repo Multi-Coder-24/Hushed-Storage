@@ -83,7 +83,23 @@ public class HushedStorageBlockEntities
                 HushedStorageBlocks.HUSHED_SPRUCE_LOG.value(),
                 HushedStorageBlocks.HUSHED_DARK_OAK_LOG.value(),
                 HushedStorageBlocks.HUSHED_CHERRY_LOG.value(),
-                HushedStorageBlocks.HUSHED_MANGROVE_LOG.value()
+                HushedStorageBlocks.HUSHED_MANGROVE_LOG.value(),
+                HushedStorageBlocks.HUSHED_BAMBOO_BLOCK.value(),
+                HushedStorageBlocks.HUSHED_CRIMSON_STEM.value(),
+                HushedStorageBlocks.HUSHED_WARPED_STEM.value(),
+                HushedStorageBlocks.HUSHED_STONE.value(),
+                HushedStorageBlocks.HUSHED_COBBLESTONE.value(),
+                HushedStorageBlocks.HUSHED_ANDESITE.value(),
+                HushedStorageBlocks.HUSHED_DIORITE.value(),
+                HushedStorageBlocks.HUSHED_CALCITE.value(),
+                HushedStorageBlocks.HUSHED_GRANITE.value(),
+                HushedStorageBlocks.HUSHED_TUFF.value(),
+                HushedStorageBlocks.HUSHED_DEEPSLATE.value(),
+                HushedStorageBlocks.HUSHED_BASALT.value(),
+                HushedStorageBlocks.HUSHED_CLAY.value(),
+                HushedStorageBlocks.HUSHED_QUARTZ_BLOCK.value(),
+                HushedStorageBlocks.HUSHED_TERRACOTTA.value(),
+                HushedStorageBlocks.HUSHED_BLACKSTONE.value()
         ),null));
     }
 }
