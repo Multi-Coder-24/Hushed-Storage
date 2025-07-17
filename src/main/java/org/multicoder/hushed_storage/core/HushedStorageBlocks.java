@@ -64,7 +64,7 @@ public class HushedStorageBlocks
     public static final DeferredHolder<Block,Block> HUSHED_GREEN_CONCRETE = REGISTER("coloured/hushed_green_concrete");
     public static final DeferredHolder<Block,Block> HUSHED_RED_CONCRETE = REGISTER("coloured/hushed_red_concrete");
     public static final DeferredHolder<Block,Block> HUSHED_BLACK_CONCRETE = REGISTER("coloured/hushed_black_concrete");
-    //  Wood Plank Variants
+    //  Wood Variants
     public static final DeferredHolder<Block,Block> HUSHED_OAK_PLANKS = REGISTER("wooden/hushed_oak_planks");
     public static final DeferredHolder<Block,Block> HUSHED_SPRUCE_PLANKS = REGISTER("wooden/hushed_spruce_planks");
     public static final DeferredHolder<Block,Block> HUSHED_JUNGLE_PLANKS = REGISTER("wooden/hushed_jungle_planks");
@@ -76,7 +76,6 @@ public class HushedStorageBlocks
     public static final DeferredHolder<Block,Block> HUSHED_CHERRY_PLANKS = REGISTER("wooden/hushed_cherry_planks");
     public static final DeferredHolder<Block,Block> HUSHED_WARPED_PLANKS = REGISTER("wooden/hushed_warped_planks");
     public static final DeferredHolder<Block,Block> HUSHED_CRIMSON_PLANKS = REGISTER("wooden/hushed_crimson_planks");
-    //  Wood Log Variants
     public static final DeferredHolder<Block,Block> HUSHED_OAK_LOG = REGISTER_LOG("wooden/hushed_oak_log");
     public static final DeferredHolder<Block,Block> HUSHED_SPRUCE_LOG = REGISTER_LOG("wooden/hushed_spruce_log");
     public static final DeferredHolder<Block,Block> HUSHED_JUNGLE_LOG = REGISTER_LOG("wooden/hushed_jungle_log");
@@ -88,6 +87,17 @@ public class HushedStorageBlocks
     public static final DeferredHolder<Block,Block> HUSHED_BAMBOO_BLOCK = REGISTER_LOG("wooden/hushed_bamboo_block");
     public static final DeferredHolder<Block,Block> HUSHED_CRIMSON_STEM = REGISTER_LOG("wooden/hushed_crimson_stem");
     public static final DeferredHolder<Block,Block> HUSHED_WARPED_STEM = REGISTER_LOG("wooden/hushed_warped_stem");
+    public static final DeferredHolder<Block,Block> HUSHED_STRIPPED_OAK_LOG = REGISTER_LOG("wooden/hushed_stripped_oak_log");
+    public static final DeferredHolder<Block,Block> HUSHED_STRIPPED_SPRUCE_LOG = REGISTER_LOG("wooden/hushed_stripped_spruce_log");
+    public static final DeferredHolder<Block,Block> HUSHED_STRIPPED_JUNGLE_LOG = REGISTER_LOG("wooden/hushed_stripped_jungle_log");
+    public static final DeferredHolder<Block,Block> HUSHED_STRIPPED_DARK_OAK_LOG = REGISTER_LOG("wooden/hushed_stripped_dark_oak_log");
+    public static final DeferredHolder<Block,Block> HUSHED_STRIPPED_ACACIA_LOG = REGISTER_LOG("wooden/hushed_stripped_acacia_log");
+    public static final DeferredHolder<Block,Block> HUSHED_STRIPPED_BIRCH_LOG = REGISTER_LOG("wooden/hushed_stripped_birch_log");
+    public static final DeferredHolder<Block,Block> HUSHED_STRIPPED_MANGROVE_LOG = REGISTER_LOG("wooden/hushed_stripped_mangrove_log");
+    public static final DeferredHolder<Block,Block> HUSHED_STRIPPED_CHERRY_LOG = REGISTER_LOG("wooden/hushed_stripped_cherry_log");
+    public static final DeferredHolder<Block,Block> HUSHED_STRIPPED_BAMBOO_BLOCK = REGISTER_LOG("wooden/hushed_stripped_bamboo_block");
+    public static final DeferredHolder<Block,Block> HUSHED_STRIPPED_CRIMSON_STEM = REGISTER_LOG("wooden/hushed_stripped_crimson_stem");
+    public static final DeferredHolder<Block,Block> HUSHED_STRIPPED_WARPED_STEM = REGISTER_LOG("wooden/hushed_stripped_warped_stem");
     //  Stone Blocks
     public static final DeferredHolder<Block,Block> HUSHED_STONE = REGISTER("stone/hushed_stone");
     public static final DeferredHolder<Block,Block> HUSHED_COBBLESTONE = REGISTER("stone/hushed_cobblestone");
@@ -97,6 +107,7 @@ public class HushedStorageBlocks
     public static final DeferredHolder<Block,Block> HUSHED_GRANITE = REGISTER("stone/hushed_granite");
     public static final DeferredHolder<Block,Block> HUSHED_TUFF = REGISTER("stone/hushed_tuff");
     public static final DeferredHolder<Block,Block> HUSHED_DEEPSLATE = REGISTER("stone/hushed_deepslate");
+    public static final DeferredHolder<Block,Block> HUSHED_COBBLED_DEEPSLATE = REGISTER("stone/hushed_cobbled_deepslate");
     //  Other Blocks
     public static final DeferredHolder<Block,Block> HUSHED_BRICKS = REGISTER("other/hushed_bricks");
     public static final DeferredHolder<Block,Block> HUSHED_QUARTZ_BLOCK = REGISTER("other/hushed_quartz_block");
@@ -104,6 +115,17 @@ public class HushedStorageBlocks
     public static final DeferredHolder<Block,Block> HUSHED_CLAY = REGISTER("other/hushed_clay");
     public static final DeferredHolder<Block,Block> HUSHED_BLACKSTONE = REGISTER("other/hushed_blackstone");
     public static final DeferredHolder<Block,Block> HUSHED_BASALT = REGISTER_LOG("other/hushed_basalt");
+    public static final DeferredHolder<Block,Block> HUSHED_NETHERRACK = REGISTER("other/hushed_netherrack");
+    public static final DeferredHolder<Block,Block> HUSHED_OBSIDIAN = REGISTER("other/hushed_obsidian");
+    public static final DeferredHolder<Block,Block> HUSHED_CRYING_OBSIDIAN = REGISTER("other/hushed_crying_obsidian");
+    public static final DeferredHolder<Block,Block> HUSHED_SANDSTONE = REGISTER("other/hushed_sandstone");
+    public static final DeferredHolder<Block,Block> HUSHED_RED_SANDSTONE = REGISTER("other/hushed_red_sandstone");
+    public static final DeferredHolder<Block,Block> HUSHED_SAND = REGISTER("other/hushed_sand");
+    public static final DeferredHolder<Block,Block> HUSHED_RED_SAND = REGISTER("other/hushed_red_sand");
+    public static final DeferredHolder<Block,Block> HUSHED_GRAVEL = REGISTER("other/hushed_gravel");
+    public static final DeferredHolder<Block,Block> HUSHED_DIRT = REGISTER("other/hushed_dirt");
+    public static final DeferredHolder<Block,Block> HUSHED_COARSE_DIRT = REGISTER("other/hushed_coarse_dirt");
+    public static final DeferredHolder<Block,Block> HUSHED_ROOTED_DIRT = REGISTER("other/hushed_rooted_dirt");
 
     public static DeferredHolder<Block,Block> REGISTER(String name)
     {
